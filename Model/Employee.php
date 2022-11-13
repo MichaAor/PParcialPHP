@@ -38,7 +38,7 @@ use \Model\Car;
         /**
          * Get the value of idClient
          */
-        public function getIdClient()
+        public function getId()
         {
                 return $this->idClient;
         }
@@ -46,7 +46,7 @@ use \Model\Car;
         /**
          * Set the value of idClient
          */
-        public function setIdClient($idClient): self
+        public function setId($idClient): self
         {
                 $this->idClient = $idClient;
 

@@ -16,8 +16,12 @@ use \Model\Car as Car;
         }
 
         public function Get($idCar){
-            $car = new Car();
-            return $car;
+            $this->GetD();
+            $cars = array_filter($this->carList, function($car) use ($idCar){
+                return $car->id == $idCar;
+            });
+            $cars = array_values($cars);
+        return (count($cars) > 0) ? $cars[0] : null;    
         }
 
         public function Add(){
