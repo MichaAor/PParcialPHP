@@ -1,0 +1,27 @@
+[
+    {
+        "idCar": 1,
+        "name": "Vw Gol",
+        "active": true
+    },
+    {
+        "idCar": 2,
+        "name": "Subaru Impreza WRX",
+        "active": true
+    },
+    {
+        "idCar": 3,
+        "name": "Mitsubishi Lancer Evo",
+        "active": true
+    },
+    {
+        "idCar": 4,
+        "name": "Nissan Supra",
+        "active": false
+    },
+    {
+        "idCar": 5,
+        "name": "Honda NSX",
+        "active": true
+    }
+]
